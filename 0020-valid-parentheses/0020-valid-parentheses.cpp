@@ -18,6 +18,7 @@ public:
                         return false;
                     if (ch == '}' && top != '{')
                         return false;
+                    
                 }
             }
             return st.empty();
